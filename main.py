@@ -8,4 +8,11 @@ print("Kia Ora / hello " + n )
 score = 0
 
 answer1 = print("What is the term for Instagram? \na: Paeāhua \nb: Tīhau \nc: Pukamata \nd: Pāhorangi")
+if answer1 == "a" or answer1 == "A" or answer1 == "Paeahua":
+   score += 1
+  print("CORRECT!")
+print("score: ", score)
+print("\n")
+else:
+
 
