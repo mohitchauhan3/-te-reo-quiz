@@ -1,4 +1,4 @@
-#1.2
+#1.3
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -33,5 +33,15 @@ else:
   print("\n")
 
 #Question 3  
+answer3 = input("How do you say New Zealand in Te Reo? \na. Tāmaki Makaurau \nb. Wellington \nc. Aotearoa \nd. Christchurch: ")
+if answer3 == "c" or answer3 == "C" or answer3 == "aotearoa":
+  score += 1
+  print("CORRECT!")
+  print("score: ", score)
+  print("\n")
+else:
+  print("INCORRECT! The answer is C: Aotearoa")
+  print("score: ", score)
+  print("\n")
 
-
+#Question 4
