@@ -1,4 +1,4 @@
-#2.0
+#2.1
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -12,7 +12,7 @@ answer1 = input("He aha te kupu mo Instagram / meaning What is the term for Inst
 
 if answer1 == "a" or answer1 == "A":
    score += 1
-   print("CORRECT!")
+   print("CORRECT! / HAEPAPA!")
    print("score: ", score)
    print("\n")
 else:
@@ -24,7 +24,7 @@ else:
 answer2 = input("He aha te kupu mo Twitter / meaning What is the term for Twitter? \na. Tīhau \nb Paeāhua \nc. Ahokore \nd.kiriāhua: ")  
 if answer2 == "a" or answer2 == "A":
   score += 1
-  print("CORRECT!")
+  print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:
@@ -36,7 +36,7 @@ else:
 answer3 = input("How do you say New Zealand in Te Reo? \na. Tāmaki Makaurau \nb. Wellington \nc. Aotearoa \nd. Christchurch: ")
 if answer3 == "c" or answer3 == "C" or answer3 == "aotearoa":
   score += 1
-  print("CORRECT!")
+  print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:
@@ -49,7 +49,7 @@ else:
 answer4 = input("what Is the Te Reo word for Hungry? \na. Kai \nb. Hākari \nc. Whāngai \nd. Hākari: ")
 if answer4 == "b" or answer4 == "B":
   score += 1
-  print("CORRECT!")
+  print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:  
@@ -61,7 +61,7 @@ else:
 answer5 = input("How do you say auckland in Te Reo? \na.  Aotearoa \nb. Tāmaki Makaurau \nc. tauranga \nd. Christchurch : ")
 if answer5 == "b" or answer5 == "B":
   score += 1
-  print("CORRECT!")
+  print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:  
