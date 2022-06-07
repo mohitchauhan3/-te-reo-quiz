@@ -1,4 +1,4 @@
-#2.1
+#2.2
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -68,3 +68,16 @@ else:
   print("INCORRECT! The answer is B: Tāmaki Makaurau")
   print("score: ", score)
   print("\n")
+
+#Question 6
+answer6 = input("What is the term of LOVE in te reo? \na. Whānau \nb. Tauoko \nc. Awhi \nd. Aroha : ")
+if answer6 == "d" or answer6 == "D":
+  score += 1
+  print("CORRECT! / HAEPAPA!")
+  print("score: ", score)
+  print("\n")
+else:
+  print("INCORRECT! The answer is D: Aroha")
+  print("score: ", score)
+  print("\n")
+
