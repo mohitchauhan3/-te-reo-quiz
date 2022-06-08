@@ -1,4 +1,4 @@
-#2.3
+#2.4
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -16,7 +16,7 @@ if answer1 == "a" or answer1 == "A":
    print("score: ", score)
    print("\n")
 else:
-  print("INCORRECT! / hē The answer is A: Paeāhua")
+  print("hē / meaning INCORRECT! The answer is A: Paeāhua")
   print("score: ", score)
   print("\n")
 
@@ -28,7 +28,7 @@ if answer2 == "a" or answer2 == "A":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! / hē The answer is A: Tīhau")
+  print("hē / meaning INCORRECT! The answer is A: Tīhau")
   print("score: ", score)
   print("\n")
 
@@ -40,7 +40,7 @@ if answer3 == "c" or answer3 == "C" or answer3 == "aotearoa":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! / hē The answer is C: Aotearoa")
+  print("hē / meaning INCORRECT! The answer is C: Aotearoa")
   print("score: ", score)
   print("\n")
 
@@ -53,7 +53,7 @@ if answer4 == "b" or answer4 == "B":
   print("score: ", score)
   print("\n")
 else:  
-  print("INCORRECT! / hē The answer is B: Hākari")
+  print("hē / meaning INCORRECT! The answer is B: Hākari")
   print("score: ", score)
   print("\n")
 
@@ -65,7 +65,7 @@ if answer5 == "b" or answer5 == "B":
   print("score: ", score)
   print("\n")
 else:  
-  print("INCORRECT! / hē The answer is B: Tāmaki Makaurau")
+  print("hē / meaning INCORRECT! The answer is B: Tāmaki Makaurau")
   print("score: ", score)
   print("\n")
 
@@ -77,7 +77,7 @@ if answer6 == "d" or answer6 == "D":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! / hē The answer is D: Aroha")
+  print("hē / meaning INCORRECT! The answer is D: Aroha")
   print("score: ", score)
   print("\n")
 
@@ -89,7 +89,9 @@ if answer7 == "d" or answer7 == "D":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! / hē The answer is D: tahi")
+  print("hē / meaning INCORRECT! The answer is D: tahi")
   print("score: ", score)
   print("\n")
+
+#Question 8  
   
