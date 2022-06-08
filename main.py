@@ -16,7 +16,7 @@ if answer1 == "a" or answer1 == "A":
    print("score: ", score)
    print("\n")
 else:
-  print("INCORRECT! The answer is A: Paeāhua")
+  print("INCORRECT! / hē The answer is A: Paeāhua")
   print("score: ", score)
   print("\n")
 
@@ -28,7 +28,7 @@ if answer2 == "a" or answer2 == "A":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! The answer is A: Tīhau")
+  print("INCORRECT! / hē The answer is A: Tīhau")
   print("score: ", score)
   print("\n")
 
@@ -40,7 +40,7 @@ if answer3 == "c" or answer3 == "C" or answer3 == "aotearoa":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! The answer is C: Aotearoa")
+  print("INCORRECT! / hē The answer is C: Aotearoa")
   print("score: ", score)
   print("\n")
 
@@ -53,7 +53,7 @@ if answer4 == "b" or answer4 == "B":
   print("score: ", score)
   print("\n")
 else:  
-  print("INCORRECT! The answer is B: Hākari")
+  print("INCORRECT! / hē The answer is B: Hākari")
   print("score: ", score)
   print("\n")
 
@@ -65,7 +65,7 @@ if answer5 == "b" or answer5 == "B":
   print("score: ", score)
   print("\n")
 else:  
-  print("INCORRECT! The answer is B: Tāmaki Makaurau")
+  print("INCORRECT! / hē The answer is B: Tāmaki Makaurau")
   print("score: ", score)
   print("\n")
 
@@ -77,18 +77,19 @@ if answer6 == "d" or answer6 == "D":
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! The answer is D: Aroha")
+  print("INCORRECT! / hē The answer is D: Aroha")
   print("score: ", score)
   print("\n")
 
 #Question 7
-answer7 = input("How do you say one in te reo? \na. tahi \nb. rua \nc. toru \nd. wha : ")
-if answer7 == "a" or answer7 == "A":
+answer7 = input("How do you say one in te reo? \na. wha \nb. rua \nc. toru \nd. tahi : ")
+if answer7 == "d" or answer7 == "D":
   score += 1
   print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:
-  print("INCORRECT! The answer is A: tahi")
+  print("INCORRECT! / hē The answer is D: tahi")
   print("score: ", score)
   print("\n")
+  
