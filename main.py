@@ -1,4 +1,4 @@
-#3.4
+#3.5
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -130,7 +130,7 @@ else:
   print("\n")   
 
 #Question 11 
-answer11 = input("how do you say Good morning \na. Kia ora \nb. Kei te pai \nc. Tino pai \nd. Mōrena : ")
+answer11 = input("how do you say Good morning in Te Reo \na. Kia ora \nb. Kei te pai \nc. Tino pai \nd. Mōrena : ")
 if answer11 == "d" or answer11 == "D":
   score += 1
   print("CORRECT! / HAEPAPA!")
@@ -142,4 +142,16 @@ else:
   print("\n")     
 
 #Question 12
-answer12 = input("how do you ")
+answer12 = input("How do you say goodbye in Te Reo? \na. Kia ora \nb. Ka kite anō \nc. Kei te pai \nd. Mōrena : ")
+if answer12 == "b" or answer12 == "B":
+  score += 1
+  print("CORRECT! / HAEPAPA!")
+  print("score: ", score)
+  print("\n")
+else:
+  print("hē / meaning INCORRECT! The answer is B: Ka kite anō")
+  print("score: ", score)
+  print("\n") 
+
+if score <= 1:
+  print
