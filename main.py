@@ -1,4 +1,4 @@
-#3.1
+#3.2
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -128,3 +128,5 @@ else:
   print("hē / meaning INCORRECT! The answer is A: Whānau")
   print("score: ", score)
   print("\n")   
+
+#Question 11 
