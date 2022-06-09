@@ -1,4 +1,5 @@
-#3.5
+#4.0
+#10/06/2022
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
@@ -46,14 +47,14 @@ else:
 
   
 #Question 4
-answer4 = input("what Is the Te Reo word for Hungry? \na. Kai \nb. Hākari \nc. Whāngai \nd. Hākari: ")
+answer4 = input("what Is the Te Reo word for Hungry? \na. Kai \nb. Hiakai \nc. Whāngai \nd. Hākari: ")
 if answer4 == "b" or answer4 == "B":
   score += 1
   print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:  
-  print("hē / meaning INCORRECT! The answer is B: Hākari")
+  print("hē / meaning INCORRECT! The answer is B: Hiakai")
   print("score: ", score)
   print("\n")
 
@@ -94,14 +95,14 @@ else:
   print("\n")
 
 #Question 8
-answer8 = input("How do you say Good morning in te reo? \na. Kia ora \nb. Tēnā koe \nc.  haere mai \nd. Mōrena : ")
+answer8 = input("How do you say Good night in te reo? \na. Kia ora \nb. Tēnā koe \nc.  haere mai \nd. pō mārie : ")
 if answer8 == "d" or answer8 == "D":
   score += 1
   print("CORRECT! / HAEPAPA!")
   print("score: ", score)
   print("\n")
 else:
-  print("hē / meaning INCORRECT! The answer is D: Mōrena")
+  print("hē / meaning INCORRECT! The answer is D: pō mārie")
   print("score: ", score)
   print("\n")
 
@@ -154,4 +155,11 @@ else:
   print("\n") 
 
 if score <= 1:
-  print
+  print("Your total score is:", score, "- better luck next time")
+elif score == 2:
+  print("you total score is:", score, "- you went ok.")
+else:
+  print("your total score is:", score, "- your amazing ")  
+    
+  
+
