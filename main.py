@@ -1,10 +1,10 @@
-#2.5
+#3.0
 print("Kia Ora Ko Wai Tou Ingoa? / meaning Hello What is your name?")
 n = input()
 print("Kia Ora / hello " + n )
 
 # Asking The user name in te reo 
-
+#is a Python quiz programme to assist the user in learning Te Reo
 score = 0
 
 #Question 1
@@ -106,3 +106,25 @@ else:
   print("\n")
 
 #Question 9
+answer9 = input("How do you tribe, nation, large group of people? \na. Whānau \nb. Aroha \nc. Iwi \nd. tahi : ")
+if answer9 == "c" or answer9 == "C":
+  score += 1
+  print("CORRECT! / HAEPAPA!")
+  print("score: ", score)
+  print("\n")
+else:
+  print("hē / meaning INCORRECT! The answer is C: Iwi")
+  print("score: ", score)
+  print("\n") 
+
+#Question 10 
+answer10 = input("How do you say family in Te Reo? \na. Whānau \nb. tahi \nc. Iwi \nd. Aroha : ")
+if answer10 == "a" or answer10 == "A":
+  score += 1
+  print("CORRECT! / HAEPAPA!")
+  print("score: ", score)
+  print("\n")
+else:
+  print("hē / meaning INCORRECT! The answer is A: Whānau")
+  print("score: ", score)
+  print("\n")   
